@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    class FizzBuzz
     {
         static void Main(string[] args)
         {
