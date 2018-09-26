@@ -19,22 +19,23 @@ namespace ConsoleApp1
                 {
                     if (i % 3 == 0 && i % 5 == 0)
                     {
-                        Trace.WriteLine("FizzBuzz");
+                        Console.WriteLine("FizzBuzz");
                     }
                     else if (i % 3 == 0)
                     {
-                        Trace.WriteLine("Fizz");
+                        Console.WriteLine("Fizz");
                     }
                     else if (i % 5 == 0)
                     {
-                        Trace.WriteLine("Buzz");
+                        Console.WriteLine("Buzz");
                     }
                     else
                     {
-                        Trace.WriteLine(i);
+                        Console.WriteLine(i);
                     }
                 }
             }
+            Console.Read();
         }
     }
 }
